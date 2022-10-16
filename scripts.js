@@ -58,3 +58,6 @@ function inocencio_d() {
     document.getElementById("inocencio").style.zIndex="100";
     document.getElementById("inocencio_i").style.zIndex='100';
 }
+function inocencio_g() {
+    open("./img/inocencio.jpg");
+}
