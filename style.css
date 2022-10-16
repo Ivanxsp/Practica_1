@@ -1,44 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&display=swap');*
+@import url('https://fonts#googleapis#com/css2?family=Montserrat:wght@200;700&display=swap');*
 
 *{
     font-family: 'Montserrat', sans-serif;
 }
-.titulo{
+#titulo{
     height: 100px;
     text-align: center;
 }
-.titulo p{
+#titulo p{
     font-size: xx-large;
 }
-.izq{
+#izq{
      position: relative;
      float: left;
      width: 200px;
      text-align: center;
  }
-.izq img{
+#izq img{
     filter: grayscale(100%);
     width: 150px;
     height: 188px;
 }
-.izq img:hover {
+#izq img:hover {
     filter: grayscale(0%);
     transition: 1s;
 }
 button{
     border: none;
 }
-.cont{
+#cont{
     margin-left: 200px;
     width: auto;
 }
-.princ{
+#princ{
     position: relative;
     float: left;
     width: 50%;
     height: 800px;
 }
-.princ div{
+#princ div{
     position: absolute;
     float: left;
     width: 100%;
@@ -46,23 +46,23 @@ button{
     background-size: cover;
     background-position: center;
 }
-.breda{
+#breda{
     background-image: url("./img/breda.jpg");
-    z-index: 1;
+    z-index: 100;
 }
-.venus{
+#venus{
     background-image: url("./img/venus.jpg");
 }
-.meninas{
+#meninas{
     background-image: url("./img/meninas.jpg");
 }
-.vulcano{
+#vulcano{
     background-image: url("./img/vulcano.jpg");
 }
-.inocencio{
+#inocencio{
     background-image: url("./img/inocencio.jpg");
 }
-.der{
+#der{
     position: relative;
     float: right;
     width: 50%;
@@ -80,15 +80,16 @@ button{
 .boton:hover{
     background-color: #04c5c0;
 }
-.der div{
+#der div{
     position: absolute;
     float: left;
-    width: auto;
-    height: auto;
     text-align: center;
-    margin-top: 500px;
+    height: auto;
+    bottom: 0;
+    left: 0;
+    padding-top: 400px;
     background-color: white;
 }
-.breda_i{
-    z-index: 1;
+#breda_i{
+    z-index: 100;
 }

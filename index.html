@@ -7,56 +7,57 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cuadros de Velazquez</title>
     <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
 </head>
 <body>
-    <div class="titulo">
+    <div id="titulo">
         <p>Cuadros de Velazquez</p>
     </div>
-    <div class="izq">
-        <button class="brenda_m"><img src="./img/breda-mini.jpg" alt=""></button>
-        <button class="venus_m"><img src="./img/venus-mini.jpg" alt=""></button>
-        <button class="meninas_m"><img src="./img/meninas-mini.jpg" alt=""></button>
-        <button class="vulcano_m"><img src="./img/vulcano-mini.jpg" alt=""></button>
-        <button class="inocencio_m"><img src="./img/inocencio-mini.jpg" alt=""></button>
+    <div id="izq">
+        <button onclick="breda_d()" id="breda_m"><img src="./img/breda-mini.jpg" alt=""></button>
+        <button onclick="venus_d()" id="venus_m"><img src="./img/venus-mini.jpg" alt=""></button>
+        <button onclick="meninas_d()" id="meninas_m"><img src="./img/meninas-mini.jpg" alt=""></button>
+        <button onclick="vulcano_d()" id="vulcano_m"><img src="./img/vulcano-mini.jpg" alt=""></button>
+        <button onclick="inocencio_d()" id="inocencio_m"><img src="./img/inocencio-mini.jpg" alt=""></button>
     </div>
-    <div class="cont">
-        <div class="princ">
-            <div class="breda"></div>
-            <div class="venus"></div>
-            <div class="meninas"></div>
-            <div class="vulcano"></div>
-            <div class="inocencio"></div>
+    <div id="cont">
+        <div id="princ">
+            <div id="breda" class="atras"></div>
+            <div id="venus" class="atras"></div>
+            <div id="meninas" class="atras"></div>
+            <div id="vulcano" class="atras"></div>
+            <div id="inocencio" class="atras"></div>
         </div>
-        <div class="der">
-            <div class="breda_i">
+        <div id="der">
+            <div id="breda_i">
                 <h1>La Bendición de Breda</h1>
                 <p>1634-35</p>
                 <p><strong>380€</strong></p>
                 <p class="just">Replica del cuadro en colores originales y tamaño 150X80cm</p>
                 <input type="button" class="boton" value="Comprar">
             </div>
-            <div class="venus_i">
-                <h1>Venus dell espejo</h1>
+            <div id="venus_i">
+                <h1>Venus del espejo</h1>
                 <p>1644-1648</p>
                 <p><strong>432€</strong></p>
                 <p class="just">Replica del cuadro en colores originales y tamaño 230X150cm</p>
                 <input type="button" class="boton" value="Comprar">
             </div>
-            <div class="meninas_i">
+            <div id="meninas_i">
                 <h1>Las Meninas</h1>
                 <p>1616-1660</p>
                 <p><strong>1250€</strong></p>
                 <p class="just">Replica del cuadro en colores originales y tamaño 400X350cm</p>
                 <input type="button" class="boton" value="Comprar">
             </div>
-            <div class="vulcano_i">
+            <div id="vulcano_i">
                 <h1>La Fragua de Vulcano</h1>
                 <p>1630</p>
                 <p><strong>375€</strong></p>
                 <p class="just">Replica del cuadro en colores originales y tamaño 170X120cm</p>
                 <input type="button" class="boton" value="Comprar">
             </div>
-            <div class="inocencio_i">
+            <div id="inocencio_i">
                 <h1>El Papa Inocencio X</h1>
                 <p>1650</p>
                 <p><strong>280€</strong></p>
