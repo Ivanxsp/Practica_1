@@ -61,3 +61,15 @@ function inocencio_d() {
 function inocencio_g() {
     open("./img/inocencio.jpg");
 }
+function vulcano_g() {
+    open("./img/vulcano.jpg");
+}
+function meninas_g() {
+    open("./img/meninas.jpg");
+}
+function venus_g() {
+    open("./img/venus.jpg");
+}
+function breda_g() {
+    open("./img/breda.jpg");
+}
